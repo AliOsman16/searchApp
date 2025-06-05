@@ -39,24 +39,37 @@ Temel olarak bir arama motoru gibi çalışır, ancak yalnızca **görsel içeri
    ```bash
    git clone https://github.com/AliOsman16/searchApp.git
    
-2.Proje dizinine gidin:
-  ```bash
-    cd searchApp
+2. Proje dizinine gidin:
+   ```
+   cd searchApp
 
-    Uygulamayı çalıştırmak için SearchApp.html dosyasını herhangi bir tarayıcıda açın:
-
-        Sağ tıklayıp "Tarayıcıda Aç"
-
-        veya
-
-        Dosyayı sürükleyip bir tarayıcı sekmesine bırakın
+3. Uygulamayı çalıştırmak için SearchApp.html dosyasını herhangi bir tarayıcıda açın:
+        Sağ tıklayıp "Tarayıcıda Aç" veya Dosyayı sürükleyip bir tarayıcı sekmesine bırakın
 
 📸 Nasıl Çalışır?
-
     Uygulama yüklendiğinde bir arama kutusu görünür.
-
     Arama kutusuna bir kelime yazıp Enter tuşuna bastığınızda,
-
     Uygulama, o kelimeyle ilişkili görselleri getirir ve ekranda gösterir.
-
     Yeni bir kelime arandığında önceki sonuçlar temizlenir ve yeni görseller gösterilir.
+
+📁 Dosya Yapısı
+
+searchApp/
+│
+├── SearchApp.html    # Ana HTML dosyası
+├── SearchApp.js      # Uygulamanın JavaScript mantığı
+└── styles.css        # Stil dosyası (varsa)
+
+💡 Geliştirme Fikirleri
+
+   🔐 Gerçek bir görsel API (Unsplash, Pexels vb.) entegrasyonu
+    
+   📱 Daha gelişmiş mobil tasarım ve responsive yapı
+
+   ⏳ Yükleniyor animasyonu / hata mesajları
+
+   🗂️ Kategorilere göre filtreleme
+
+   
+
+
