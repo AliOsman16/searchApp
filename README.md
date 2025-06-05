@@ -29,7 +29,7 @@ Temel olarak bir arama motoru gibi çalışır, ancak yalnızca **görsel içeri
 | JavaScript    | Dinamik veri çekme ve arayüz kontrolü |
 | Fetch API     | İnternetten görsel verisi alma işlemi |
 
-> Not: Uygulama, görselleri çekmek için genellikle bir görsel API'si  Unsplash API ile çalışacak şekilde tasarlanmıştır. Projede kendi api anahtarınızı girmeyi unutmayınız.
+> Not: Uygulama, görselleri çekmek için bir görsel API'si olan Unsplash API ile çalışacak şekilde tasarlanmıştır. Projede kendi api anahtarınızı girmeyi unutmayınız.
 
 ---
 
