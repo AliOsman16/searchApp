@@ -1,0 +1,101 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#searchButton{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#clearButton{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.imagelist-wrapper{
+    column-count: 4;
+    column-gap: 16px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 16px auto;
+}
+.card{
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 16px 0;
+    border: none;
+    background: #fff;
+    box-sizing: border-box;
+    break-inside: avoid;
+}
+.card:hover{
+    border: 1px solid #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+}
+
+.image-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+}
+.image-modal .modal-content {
+    max-width: 90vw;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    object-fit: contain;
+    background: #fff;
+}
+.close-modal {
+    position: fixed;      
+    top: 32px;              
+    right: 48px;   
+    top: 40px;
+    right: 60px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10000;
+}
+.info-section {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
+/* Responsive için */
+@media (max-width: 900px) {
+    .imagelist-wrapper {
+        column-count: 2;
+    }
+}
+@media (max-width: 600px) {
+    .imagelist-wrapper {
+        column-count: 1;
+    }
+}

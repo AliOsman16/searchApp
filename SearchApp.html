@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchApp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <div class="form-wrapper">
+            <form class="container mt-5" id="form">
+                <h1 class="mb-4">Resim Arama Uygulaması</h1>
+                <input type="text" id="searchInput" class="form-control" placeholder="Resim aramak için yazın..." aria-label="Search">
+                <div class="button-wrapper">
+                    <button type="submit" id="searchButton" class="btn btn-primary mt-2">Ara</button>
+                    <button type="button" id="clearButton" class="btn btn-danger mt-2">Temizle</button>
+                </div>
+            </form>
+            <div class="info-section text-center mt-5 p-4 shadow rounded-4" style="max-width: 600px; margin: 0 auto;">
+                <div class="mb-3">
+                    <img src="https://img.icons8.com/color/96/000000/image.png" alt="Hoş Geldiniz" style="width:64px; height:64px;">
+                </div>
+                <h2 class="mb-2 fw-bold" style="color:#007bff;">Resim Arama Uygulamasına Hoş Geldiniz!</h2>
+                <p class="mb-4 text-muted">Milyonlarca görsel arasında arama yapabilirsiniz. Hemen aşağıdaki kutuya bir kelime yazıp <b>Ara</b> butonuna tıklayın.</p>
+                <div class="mb-3">
+                    <span class="badge rounded-pill bg-primary mx-1">doğa</span>
+                    <span class="badge rounded-pill bg-success mx-1">şehir</span>
+                    <span class="badge rounded-pill bg-warning text-dark mx-1">hayvan</span>
+                    <span class="badge rounded-pill bg-danger mx-1">sanat</span>
+                    <span class="badge rounded-pill bg-info text-dark mx-1">teknoloji</span>
+                </div>
+                <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                    <span class="text-secondary"><i class="bi bi-search"></i> Aramak için bir kelime girin</span>
+                    <span class="text-secondary"><i class="bi bi-arrow-right"></i></span>
+                    <span class="text-primary fw-semibold">Sonuçlar aşağıda listelenecek</span>
+                </div>
+            </div>
+        </div>
+            <div class="imagelist-wrapper">
+                
+                
+                <!-- Resimlerin yükleneceği alan -->
+                
+            </div>
+    </div>
+
+    <div id="imageModal" class="image-modal" style="display:none;">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="SearchApp.js"></script>
+</body>
+</html>
