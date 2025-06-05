@@ -47,11 +47,11 @@ Temel olarak bir arama motoru gibi çalışır, ancak yalnızca **görsel içeri
         Sağ tıklayıp "Tarayıcıda Aç" veya Dosyayı sürükleyip bir tarayıcı sekmesine bırakın
 
 ## 📸 Nasıl Çalışır?
-   ``
-    Uygulama yüklendiğinde bir arama kutusu görünür.
-    Arama kutusuna bir kelime yazıp Enter tuşuna bastığınızda,
-    Uygulama, o kelimeyle ilişkili görselleri getirir ve ekranda gösterir.
-    Yeni bir kelime arandığında önceki sonuçlar temizlenir ve yeni görseller gösterilir.
+
+   Uygulama yüklendiğinde bir arama kutusu görünür.
+   Arama kutusuna bir kelime yazıp Enter tuşuna bastığınızda,
+   Uygulama, o kelimeyle ilişkili görselleri getirir ve ekranda gösterir.
+   Yeni bir kelime arandığında önceki sonuçlar temizlenir ve yeni görseller gösterilir.
 
 ## 📁 Dosya Yapısı
 ```bash
@@ -62,8 +62,6 @@ searchApp/
 └── styles.css        # Stil dosyası (varsa)
 ```
 ## 💡 Geliştirme Fikirleri:
-
-   🔐 Gerçek bir görsel API (Unsplash, Pexels vb.) entegrasyonu
     
    📱 Daha gelişmiş mobil tasarım ve responsive yapı
 
